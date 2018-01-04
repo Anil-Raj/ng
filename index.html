@@ -19,7 +19,7 @@
     </select>
   </div>
   <div>
-    <b>Total:</b>
+    <b>Total: </b>
     <span ng-repeat="c in invoice.currencies">
       {{invoice.total(c) | currency:c}}
     </span><br>
